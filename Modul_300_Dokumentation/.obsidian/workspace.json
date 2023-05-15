@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02809f5f448d1c8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReadMe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6a0b641b6ef23f89",
             "type": "leaf",
             "state": {
@@ -37,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Debian_Vagrant Setup.md",
+                "file": "Work environment.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Debian_Vagrant Setup.md",
+                "file": "Work environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Debian_Vagrant Setup.md",
+                "file": "Work environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Debian_Vagrant Setup.md"
+                "file": "Work environment.md"
               }
             }
           },
@@ -183,10 +170,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f6d4550bdb062ac1",
+  "active": "6a0b641b6ef23f89",
   "lastOpenFiles": [
+    "ReadMe.md",
     "Work environment.md",
-    "Debian_Vagrant Setup.md",
-    "ReadMe.md"
+    "Debian_Vagrant Setup.md"
   ]
 }
