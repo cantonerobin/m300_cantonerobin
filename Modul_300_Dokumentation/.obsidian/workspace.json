@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02809f5f448d1c8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReadMe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6a0b641b6ef23f89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work environment.md",
+                "file": "Debian_Vagrant Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Debian_Vagrant Setup.md",
+                "file": "Work environment.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,10 +170,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f6d4550bdb062ac1",
+  "active": "6a0b641b6ef23f89",
   "lastOpenFiles": [
     "Work environment.md",
-    "Debian_Vagrant Setup.md",
-    "ReadMe.md"
+    "ReadMe.md",
+    "Debian_Vagrant Setup.md"
   ]
 }

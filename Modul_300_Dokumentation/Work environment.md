@@ -1,8 +1,8 @@
-Hypervisor: Proxmox
+# Hypervisor: Proxmox
 
 I use Proxmox as hypervisor to virtualise a Debian VM, on this Debain VM Vigrant is installed.
 
-Vagrant Host: Debian
+# Vagrant Host: Debian
 
 Hostname: m300-vagrant
 Betriebssystemversion: "Debian GNU/Linux 11 (bullseye)"
