@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work environment.md",
+                "file": "Debian_Vagrant Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work environment.md",
+                "file": "Debian_Vagrant Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work environment.md",
+                "file": "Debian_Vagrant Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work environment.md"
+                "file": "Debian_Vagrant Setup.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "6a0b641b6ef23f89",
   "lastOpenFiles": [
-    "ReadMe.md",
     "Work environment.md",
+    "ReadMe.md",
     "Debian_Vagrant Setup.md"
   ]
 }

@@ -19,4 +19,9 @@ Install Vagrant
 ```bash
  sudo apt update && sudo apt install vagrant
 ```
- 
+
+Install aws Vigrant Plugin
+``` 
+vagrant plugin install vagrant-aws
+```
+
