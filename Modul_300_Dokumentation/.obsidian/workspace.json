@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "613f81d9dd45d85f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definitions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f6d4550bdb062ac1",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Debian_Vagrant Setup.md",
+                "file": "Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Debian_Vagrant Setup.md",
+                "file": "Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Debian_Vagrant Setup.md"
+                "file": "Definitions.md"
               }
             }
           },
@@ -170,10 +183,11 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6a0b641b6ef23f89",
+  "active": "613f81d9dd45d85f",
   "lastOpenFiles": [
+    "Debian_Vagrant Setup.md",
+    "Definitions.md",
     "Work environment.md",
-    "ReadMe.md",
-    "Debian_Vagrant Setup.md"
+    "ReadMe.md"
   ]
 }
