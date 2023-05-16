@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commands.md",
+                "file": "Definitions.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commands.md",
+                "file": "Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commands.md",
+                "file": "Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commands.md"
+                "file": "Definitions.md"
               }
             }
           },
@@ -197,11 +197,11 @@
   },
   "active": "213a4b163b591376",
   "lastOpenFiles": [
+    "Work environment.md",
     "Definitions.md",
+    "Debian_Vagrant Setup.md",
     "Commands.md",
     "VirtualBox",
-    "ReadMe.md",
-    "Debian_Vagrant Setup.md",
-    "Work environment.md"
+    "ReadMe.md"
   ]
 }
