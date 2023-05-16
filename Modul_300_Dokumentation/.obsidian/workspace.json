@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a0b641b6ef23f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Debian_Vagrant Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "613f81d9dd45d85f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Definitions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "213a4b163b591376",
+            "id": "3f9ac511d54bb3bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3f9ac511d54bb3bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6d4550bdb062ac1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work environment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials.md",
+                "file": "Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials.md",
+                "file": "Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials.md"
+                "file": "Commands.md"
               }
             }
           },
@@ -195,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -217,11 +168,11 @@
   },
   "active": "3f9ac511d54bb3bd",
   "lastOpenFiles": [
-    "Commands.md",
     "Tutorials.md",
+    "Commands.md",
     "Definitions.md",
-    "Work environment.md",
     "Debian_Vagrant Setup.md",
+    "Work environment.md",
     "VirtualBox",
     "ReadMe.md"
   ]
