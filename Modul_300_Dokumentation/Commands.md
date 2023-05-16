@@ -9,6 +9,7 @@
 | vagrant reload                   | Check the Vagrantfile for changed Configuration and reload the VM if so          |
 | vagrant box list                 | List all downloaden boxes (docker image ls)                                      |
 | vagrant box remove ${box_name}   | Delete specified box                                                             |
-|                                  |                                                                                  |
+| vagrant global-status            | Show all running Vm's configured with Vagrant (Cached)                                  |
+| vagrant global-status --prune    | Updates the Cached entrys                                                                                 |
 
 
