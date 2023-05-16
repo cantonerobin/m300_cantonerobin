@@ -1,4 +1,4 @@
-# Vagrant Cheat-Sheet
+
 ## General Management
 COMMAND | DESCRIPTION
 ---|---
@@ -14,6 +14,7 @@ COMMAND | DESCRIPTION
 `vagrant halt` | Stops the vagrant machine
 `vagrant suspend` | Suspends a virtual machine (remembers state)
 `vagrant resume` | Resume a suspended machine (vagrant up works just fine for this as well)
+`vagrant port` | Shows redirected Ports
 `vagrant ssh` | Connects to machine via SSH
 `vagrant ssh <BOXNAME>` | If you give your box a name in your Vagrantfile, you can ssh into it with boxname. Works from any directory.
 `vagrant destroy` | Stops and deletes all traces of the vagrant machine

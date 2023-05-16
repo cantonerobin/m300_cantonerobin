@@ -1,0 +1,1 @@
+Wieso werden Ports an das gast System weitergeleitet? Sind eigenständige VMs oder geht es um Container.
