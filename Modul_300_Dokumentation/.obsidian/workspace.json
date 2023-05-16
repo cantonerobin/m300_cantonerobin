@@ -146,11 +146,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +168,11 @@
   },
   "active": "3f9ac511d54bb3bd",
   "lastOpenFiles": [
-    "Tutorials.md",
+    "Work environment.md",
     "Commands.md",
+    "Tutorials.md",
     "Definitions.md",
     "Debian_Vagrant Setup.md",
-    "Work environment.md",
     "VirtualBox",
     "ReadMe.md"
   ]
