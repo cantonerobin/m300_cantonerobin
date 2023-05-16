@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc9e28de52ee1439",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vagrant/01 -Definitions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1bf0972dd28022b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vagrant/01 -Definitions.md",
+                "file": "Vagrant/98 - Ressources.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vagrant/01 -Definitions.md",
+                "file": "Vagrant/98 - Ressources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vagrant/01 -Definitions.md",
+                "file": "Vagrant/98 - Ressources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vagrant/01 -Definitions.md"
+                "file": "Vagrant/98 - Ressources.md"
               }
             }
           },
@@ -181,12 +168,12 @@
   },
   "active": "1bf0972dd28022b8",
   "lastOpenFiles": [
+    "Vagrant/01 -Definitions.md",
+    "Vagrant/98 - Ressources.md",
     "Vagrant/99 - Questions.md",
-    "Vagrant/Tutorials.md",
     "Vagrant/04 - Vagrant Cheat-Sheet.md",
     "Vagrant/03 - Host Setup.md",
     "Vagrant/02 - Work environment.md",
-    "Vagrant/01 -Definitions.md",
     "Vagrant",
     "VirtualBox",
     "ReadMe.md"
