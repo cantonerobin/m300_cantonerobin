@@ -690,3 +690,22 @@ Ubuntu 16.04.7 LTS ubuntu-xenial ttyS0
 
 ubuntu-xenial login: [   24.512518] cloud-init[1520]:   en_US.UTF-8... done
 [   24.515285] cloud-init[1520]: Generation complete.
+[   24.977506] cloud-init[1520]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Tue, 16 May 2023 12:33:13 +0000. Up 23.24 seconds.
+ci-info: no authorized SSH keys fingerprints found for user ubuntu.
+<14>May 16 12:33:15 ec2: 
+<14>May 16 12:33:15 ec2: #############################################################
+<14>May 16 12:33:15 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+<14>May 16 12:33:15 ec2: 1024 SHA256:CfVQ+z5VPYnax+NT7bi2G7t9/sC6W733UAipbo4XEZ4 root@ubuntu-xenial (DSA)
+<14>May 16 12:33:15 ec2: 256 SHA256:yCHNeo5Bnbyl2dDefKa6qC/HITNseeBd54CkdecNqMA root@ubuntu-xenial (ECDSA)
+<14>May 16 12:33:15 ec2: 256 SHA256:W90+uU0NhCuyOyPwD9RFMvJlbDvvlpssQZ89m0W4lD0 root@ubuntu-xenial (ED25519)
+<14>May 16 12:33:15 ec2: 2048 SHA256:cw4RT+l3C5jCM3H2pE6CGtfoORJmuqTXA5m5jiJX07c root@ubuntu-xenial (RSA)
+<14>May 16 12:33:15 ec2: -----END SSH HOST KEY FINGERPRINTS-----
+<14>May 16 12:33:15 ec2: #############################################################
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBF/h2TvW6njMunWI2movPt1Zl3EirZLEr+lkBVsKgoNzTpaHm7ssfSzBHy3SWvUhZCFPYzf17Ll3ykiKuB4teYY= root@ubuntu-xenial
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB19vF+1wUt/KDvKNF/6SgQubQ2Q4TexaJKmc4Ky8Gti root@ubuntu-xenial
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJrpgYGBnC6NQuaR/f3PbGVNpm0ovLn4rsQ2RgppOKdL00ZDQjgv39JjcEASsou0wdrMq9BztfWKZp+KbRbsg/KSW2qRQobuyAnBiovxzYkgqVteB0HLZt34Bp3l77PFptSEREZZZsc9V+TXBi+eVWWRK9J+zj3RVBLixefkv4QDn24Csl+iuq0Tjq3ubigH1mp0Tt0gMe99wsZh9FjrQD94bgks79zKNsea6AnWu12i4WDfT5oA8KEblRiZ+NMelAn5txlFUwshjIGFkRKOxpHRtrfMDI2oj9abrEi6BKNRxyHObFrlCZwI9FFCUSanTuPiqEwk9JWFSxA1lGsZY3 root@ubuntu-xenial
+-----END SSH HOST KEY KEYS-----
+[   25.584924] cloud-init[1653]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:final' at Tue, 16 May 2023 12:33:15 +0000. Up 25.37 seconds.
+[   25.593489] cloud-init[1653]: ci-info: no authorized SSH keys fingerprints found for user ubuntu.
+[   25.599677] cloud-init[1653]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 finished at Tue, 16 May 2023 12:33:15 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 25.54 seconds
