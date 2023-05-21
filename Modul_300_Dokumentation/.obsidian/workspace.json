@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "text",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +166,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "1bf0972dd28022b8",
+  "active": "767587b8a4243716",
   "lastOpenFiles": [
     "textgenerator/prompts/dalle-2/quaMacro.md",
     "textgenerator/prompts/dalle-2/artChildrenDrawing.md",
