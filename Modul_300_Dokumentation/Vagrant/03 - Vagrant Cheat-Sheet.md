@@ -35,3 +35,11 @@ COMMAND | DESCRIPTION
 `vagrant box outdated` | Check for updates vagrant box update
 `vagrant box remove <BOXNAME>` | Deletes a box from the machine
 `vagrant package` | Packages a running virtualbox env in a reusable box
+
+##Managing Plugins
+COMMAND | DESCRIPTION
+---|---
+`vagrant plugin install <Plugin>` | Install a Plugin like a Provider
+`vagrant plugin update` | Update all Plugins
+`vagrant plugin list` | List installed Plugins
+`vagrant plugin expunge ` | Delete all configured Plugins
