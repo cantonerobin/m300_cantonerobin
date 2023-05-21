@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vagrant/04 - Troubleshoot.md",
+                "file": "Vagrant/02 - Work environment.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "text",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vagrant/04 - Troubleshoot.md",
+                "file": "Vagrant/02 - Work environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vagrant/04 - Troubleshoot.md",
+                "file": "Vagrant/02 - Work environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vagrant/04 - Troubleshoot.md"
+                "file": "Vagrant/02 - Work environment.md"
               }
             }
           },
@@ -161,23 +162,45 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "1bf0972dd28022b8",
   "lastOpenFiles": [
-    "Vagrant/01 -Definitions.md",
-    "Vagrant/04 - Troubleshoot.md",
-    "Vagrant/02 - Work environment.md",
-    "Vagrant/03 - Vagrant Cheat-Sheet.md",
+    "textgenerator/prompts/dalle-2/quaMacro.md",
+    "textgenerator/prompts/dalle-2/artChildrenDrawing.md",
+    "textgenerator/prompts/dalle-2/modPhotorealistic.md",
+    "textgenerator/prompts/dalle-2/artTakashiMurakami.md",
+    "textgenerator/prompts/dalle-2/artBallPointPen.md",
+    "textgenerator/prompts/dalle-2/artSynthwave.md",
+    "textgenerator/prompts/dalle-2/artBanksy.md",
+    "textgenerator/prompts/dalle-2/artDigital.md",
+    "textgenerator/prompts/dalle-2/artPixel.md",
+    "textgenerator/prompts/dalle-2/artGraffiti.md",
+    "textgenerator/prompts/dalle-2/artDeco.md",
+    "textgenerator/prompts/dalle-2/ligCinematic.md",
+    "textgenerator/prompts/dalle-2/artAnime.md",
+    "textgenerator/prompts/dalle-2/qua200mm.md",
+    "textgenerator/prompts/dalle-2/artWarhol.md",
+    "textgenerator/prompts/dalle-2/artSprayPainted.md",
+    "textgenerator/prompts/dalle-2/artModern.md",
+    "textgenerator/prompts/dalle-2/artUkiyoe.md",
+    "textgenerator/prompts/dalle-2/modDetailed.md",
+    "textgenerator/prompts/dalle-2/quaCinematic.md",
+    "textgenerator/prompts/dalle-2/artTimBurton.md",
+    "textgenerator/prompts/dalle-2/qua35mm.md",
+    "textgenerator/prompts/dalle-2/qua85mm.md",
+    "textgenerator/prompts/dalle-2/artBauhaus.md",
+    "textgenerator/prompts/dalle-2/modAwardWinning.md",
+    "textgenerator/prompts/dalle-2/artGlitchcore.md",
+    "textgenerator/prompts/dalle-2",
+    "textgenerator/prompts/default",
+    "textgenerator/prompts",
+    "textgenerator",
     "Vagrant/04 - Troubleshoot",
-    "Vagrant/98 - Ressources.md",
-    "Vagrant/99 - Questions.md",
-    "Vagrant/03 - Host Setup.md",
     "Vagrant",
-    "VirtualBox",
-    "ReadMe.md"
+    "VirtualBox"
   ]
 }

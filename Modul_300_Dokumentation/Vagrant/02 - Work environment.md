@@ -15,8 +15,6 @@ Belegter Speicher auf dem Dateisystem:  1.9G
 Freier Speicher auf dem Dateisystem:  4.0G
 
 
-
-
 # Host Setup
 Update System
 `apt update && apt upgrade`
