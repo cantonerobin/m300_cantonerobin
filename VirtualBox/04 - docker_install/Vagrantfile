@@ -23,7 +23,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	  db.vm.provision "shell", inline: <<-SHELL
 	  # Debug ON!!!
       set -o xtrace
-	    echo '127.0.0.1 localhost db01\n192.168.55.101 web01' > /etc/hosts
-      
+	    apt update && apt upgrade -y
+      apt install apt-transport-https \
+      ca-certificates \
+      curl \
+      gnupg-agent \
+      software-properties-common
+
 SHELL
   end
