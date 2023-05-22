@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Packer/02 - Packer Cheat Sheet.md",
+                "file": "01 - Work environment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Packer/02 - Packer Cheat Sheet.md",
+                "file": "01 - Work environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Packer/02 - Packer Cheat Sheet.md",
+                "file": "01 - Work environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Packer/02 - Packer Cheat Sheet.md"
+                "file": "01 - Work environment.md"
               }
             }
           },
@@ -161,13 +161,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
   "active": "1bf0972dd28022b8",
   "lastOpenFiles": [
+    "02 - Previous Knowledge.md",
+    "01 - Work environment.md",
+    "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
+    "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+    "Vagrant/02 - Work environment.md",
+    "02 - Packer/02 - Packer Cheat Sheet.md",
     "textgenerator/prompts/default/summarize.md",
     "textgenerator/prompts/default/simplify.md",
     "textgenerator/prompts/default/rewrite.md",
@@ -188,12 +192,6 @@
     "textgenerator/prompts/dalle-2/qua35mm.md",
     "textgenerator/prompts/dalle-2/qua200mm.md",
     "textgenerator/prompts/dalle-2/qua15mm.md",
-    "textgenerator/prompts/dalle-2/modPhotorealistic.md",
-    "textgenerator/prompts/dalle-2/modFanart.md",
-    "textgenerator/prompts/dalle-2/modDetailed.md",
-    "textgenerator/prompts/dalle-2/modAwardWinning.md",
-    "textgenerator/prompts/dalle-2/modArtStation.md",
-    "textgenerator/prompts/dalle-2/ligStudio.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts/dalle-2",
     "textgenerator/prompts",
