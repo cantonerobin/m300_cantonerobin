@@ -13,8 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Vagrant/01 -Definitions.md",
                 "mode": "preview",
+=======
+                "file": "02 - Packer/98 - Ressources.md",
+                "mode": "source",
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
                 "source": false
               }
             }
@@ -85,7 +90,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Vagrant/01 -Definitions.md",
+=======
+                "file": "02 - Packer/98 - Ressources.md",
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Vagrant/01 -Definitions.md",
+=======
+                "file": "02 - Packer/98 - Ressources.md",
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Vagrant/01 -Definitions.md"
+=======
+                "file": "02 - Packer/98 - Ressources.md"
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
               }
             }
           },
@@ -154,50 +171,73 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+<<<<<<< HEAD
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+=======
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
   "active": "1bf0972dd28022b8",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Vagrant/03 - Vagrant Cheat-Sheet.md",
     "Vagrant/02 - Work environment.md",
     "Vagrant/01 -Definitions.md",
     "Vagrant/99 - Questions.md",
     "Vagrant/04 - Troubleshoot.md",
     "Vagrant/98 - Ressources.md",
+=======
+    "02 - Packer/01 - Definitions.md",
+    "01 - Work environment.md",
+    "02 - Previous Knowledge.md",
+    "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
+    "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+    "Vagrant/02 - Work environment.md",
+    "02 - Packer/02 - Packer Cheat Sheet.md",
+    "textgenerator/prompts/default/summarize.md",
+    "textgenerator/prompts/default/simplify.md",
+    "textgenerator/prompts/default/rewrite.md",
+    "textgenerator/prompts/default/getTitles.md",
+    "textgenerator/prompts/default/getTags.md",
+    "textgenerator/prompts/default/getParagraph.md",
+    "textgenerator/prompts/default/getOutline.md",
+    "textgenerator/prompts/default/getIdeas.md",
+    "textgenerator/prompts/default/getEmailPos.md",
+    "textgenerator/prompts/default/getEmailNeg.md",
+    "textgenerator/prompts/dalle-2/sitNature.md",
+    "textgenerator/prompts/dalle-2/quaTiltShift.md",
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
     "textgenerator/prompts/dalle-2/quaMacro.md",
-    "textgenerator/prompts/dalle-2/artChildrenDrawing.md",
-    "textgenerator/prompts/dalle-2/modPhotorealistic.md",
-    "textgenerator/prompts/dalle-2/artTakashiMurakami.md",
-    "textgenerator/prompts/dalle-2/artBallPointPen.md",
-    "textgenerator/prompts/dalle-2/artSynthwave.md",
-    "textgenerator/prompts/dalle-2/artBanksy.md",
-    "textgenerator/prompts/dalle-2/artDigital.md",
-    "textgenerator/prompts/dalle-2/artPixel.md",
-    "textgenerator/prompts/dalle-2/artGraffiti.md",
-    "textgenerator/prompts/dalle-2/artDeco.md",
-    "textgenerator/prompts/dalle-2/ligCinematic.md",
-    "textgenerator/prompts/dalle-2/artAnime.md",
-    "textgenerator/prompts/dalle-2/qua200mm.md",
-    "textgenerator/prompts/dalle-2/artWarhol.md",
-    "textgenerator/prompts/dalle-2/artSprayPainted.md",
-    "textgenerator/prompts/dalle-2/artModern.md",
-    "textgenerator/prompts/dalle-2/artUkiyoe.md",
-    "textgenerator/prompts/dalle-2/modDetailed.md",
     "textgenerator/prompts/dalle-2/quaCinematic.md",
+<<<<<<< HEAD
     "textgenerator/prompts/dalle-2",
+=======
+    "textgenerator/prompts/dalle-2/quaBokeh.md",
+    "textgenerator/prompts/dalle-2/qua85mm.md",
+    "textgenerator/prompts/dalle-2/qua4K.md",
+    "textgenerator/prompts/dalle-2/qua35mm.md",
+    "textgenerator/prompts/dalle-2/qua200mm.md",
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
     "textgenerator/prompts/default",
+    "textgenerator/prompts/dalle-2",
     "textgenerator/prompts",
     "textgenerator",
-    "Vagrant/04 - Troubleshoot",
     "Vagrant",
+    "01 - Vagrant/screenshot_ssh_key.png",
+    "01 - Vagrant/screenshot_github_ssh_key.png",
+    "01 - Vagrant/screenshot_Obsidian.png",
+    "01 - Vagrant/screenshot_VSCode.png",
+    "01 - Vagrant/screenshot_Virtualbox.png",
+    "02 - Packer",
+    "01 - Vagrant",
     "VirtualBox"
   ]
 }

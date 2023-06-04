@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
   "promptDelete": false
+=======
+  "alwaysUpdateLinks": true
+>>>>>>> 8ed6aad2a2cefa5767743f0e307ee334322572e4
 }
