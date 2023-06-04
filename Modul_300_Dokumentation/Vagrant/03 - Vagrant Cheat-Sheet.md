@@ -36,7 +36,7 @@ COMMAND | DESCRIPTION
 `vagrant box remove <BOXNAME>` | Deletes a box from the machine
 `vagrant package` | Packages a running virtualbox env in a reusable box
 
-##Managing Plugins
+## Managing Plugins
 COMMAND | DESCRIPTION
 ---|---
 `vagrant plugin install <Plugin>` | Install a Plugin like a Provider

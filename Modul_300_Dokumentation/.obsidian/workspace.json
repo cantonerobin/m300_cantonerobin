@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vagrant/02 - Work environment.md",
-                "mode": "source",
+                "file": "Vagrant/01 -Definitions.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vagrant/02 - Work environment.md",
+                "file": "Vagrant/01 -Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vagrant/02 - Work environment.md",
+                "file": "Vagrant/01 -Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vagrant/02 - Work environment.md"
+                "file": "Vagrant/01 -Definitions.md"
               }
             }
           },
@@ -161,13 +161,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "767587b8a4243716",
+  "active": "1bf0972dd28022b8",
   "lastOpenFiles": [
+    "Vagrant/03 - Vagrant Cheat-Sheet.md",
+    "Vagrant/02 - Work environment.md",
+    "Vagrant/01 -Definitions.md",
+    "Vagrant/99 - Questions.md",
+    "Vagrant/04 - Troubleshoot.md",
+    "Vagrant/98 - Ressources.md",
     "textgenerator/prompts/dalle-2/quaMacro.md",
     "textgenerator/prompts/dalle-2/artChildrenDrawing.md",
     "textgenerator/prompts/dalle-2/modPhotorealistic.md",
@@ -188,12 +192,6 @@
     "textgenerator/prompts/dalle-2/artUkiyoe.md",
     "textgenerator/prompts/dalle-2/modDetailed.md",
     "textgenerator/prompts/dalle-2/quaCinematic.md",
-    "textgenerator/prompts/dalle-2/artTimBurton.md",
-    "textgenerator/prompts/dalle-2/qua35mm.md",
-    "textgenerator/prompts/dalle-2/qua85mm.md",
-    "textgenerator/prompts/dalle-2/artBauhaus.md",
-    "textgenerator/prompts/dalle-2/modAwardWinning.md",
-    "textgenerator/prompts/dalle-2/artGlitchcore.md",
     "textgenerator/prompts/dalle-2",
     "textgenerator/prompts/default",
     "textgenerator/prompts",
