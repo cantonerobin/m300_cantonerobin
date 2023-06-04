@@ -25,7 +25,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       set -o xtrace
 	  echo '127.0.0.1 localhost db01\n192.168.55.101 web01' > /etc/hosts
       su - admin01 -c "mkdir .ssh && chmod 700 .ssh && ssh-keygen -t rsa -f .ssh/id_rsa -b 4096 -C admin01@tbz.ch -P ''" 
-      su - admin02 -c "mkdir .ssh && chmod 700 .ssh && ssh-keygen -t rsa -f .ssh/id_rsa -b 4096 -C admin02@tbz.ch -P ''" 
+      su - admin02 -c "mkdir .ssh && chmod 700 .ssh && ssh-keygen -t rsa -f .ssh/id_rsa -b 4096 -C admin02@tbz.ch -P ''"
 SHELL
   end
   

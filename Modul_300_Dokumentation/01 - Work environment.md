@@ -7,7 +7,6 @@ VM angaben
 
 This Vm is used for the AWS Config Files. 
 
-
 ## Git Setup
 
 Install git
@@ -98,3 +97,8 @@ For coding I use Visual Studio Code directly on the Windows Machine or with the 
 ## Documentation
 For Documentation is use Obsidian, this is an advanced Markdown Editor, which supports a number ob Community Plugins. I use this tool also for my Private Knowledge Base.
 ![[screenshot_Obsidian.png]]
+
+## Vagrant
+Download .msi File from here: https://developer.hashicorp.com/vagrant/downloads
+Install with the msi File.
+Reboot the system

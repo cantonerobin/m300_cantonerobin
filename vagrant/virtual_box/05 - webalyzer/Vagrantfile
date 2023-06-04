@@ -25,5 +25,11 @@ Vagrant.configure(2) do |config|
     # Logfiles von Apache rotieren und neue Analyse
     sudo logrotate -f /etc/logrotate.d/apache2
     sudo /etc/cron.daily/webalizer  
+    
+    #Setup UFW
+    apt install ufw
+    ufw allow apache2
+    ufw allow from 10.10.10.20 to any port 22
+    ufw --force enable
   SHELL
   end

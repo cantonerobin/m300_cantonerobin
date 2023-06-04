@@ -18,4 +18,3 @@ build {
     "source.docker.ubuntu"
   ]
 }
-
