@@ -9,7 +9,11 @@
         "children": [
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "id": "7092fb3638a6124e",
+=======
+            "id": "68acd65c6f1b61a3",
+>>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
 =======
             "id": "68acd65c6f1b61a3",
 >>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
@@ -18,7 +22,11 @@
               "type": "markdown",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
+=======
+                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+>>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
 =======
                 "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
 >>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
@@ -94,7 +102,11 @@
               "type": "backlink",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
+=======
+                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+>>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
 =======
                 "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
 >>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
@@ -115,7 +127,11 @@
               "type": "outgoing-link",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
+=======
+                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+>>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
 =======
                 "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
 >>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
@@ -142,7 +158,11 @@
               "type": "outline",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md"
+=======
+                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md"
+>>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
 =======
                 "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md"
 >>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
@@ -177,6 +197,7 @@
   },
   "active": "68acd65c6f1b61a3",
   "lastOpenFiles": [
+<<<<<<< HEAD
 <<<<<<< HEAD
     "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
     "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
@@ -217,6 +238,14 @@
     "02 - Packer",
     "01 - Vagrant",
     "VirtualBox"
+=======
+    "01 - Vagrant/01 -Definitions.md",
+    "01 - Work environment.md",
+    "02 - Packer/98 - Ressources.md",
+    "02 - Packer/01 - Definitions.md",
+    "02 - Packer/02 - Packer Cheat Sheet.md",
+    "02 - Previous Knowledge.md"
+>>>>>>> 5dc9742ff2c380a56a4cbb9e2739a97cf51eeba6
 =======
     "01 - Vagrant/01 -Definitions.md",
     "01 - Work environment.md",
