@@ -1,4 +1,3 @@
-
 ## General Management
 COMMAND | DESCRIPTION
 ---|---

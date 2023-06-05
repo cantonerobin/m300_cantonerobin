@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1bf0972dd28022b8",
+            "id": "7092fb3638a6124e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Packer/98 - Ressources.md",
-                "mode": "source",
+                "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Packer/98 - Ressources.md",
+                "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Packer/98 - Ressources.md",
+                "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Packer/98 - Ressources.md"
+                "file": "01 - Vagrant/03 - Vagrant Cheat-Sheet.md"
               }
             }
           },
@@ -166,11 +166,13 @@
   },
   "active": "767587b8a4243716",
   "lastOpenFiles": [
-    "02 - Packer/01 - Definitions.md",
-    "01 - Work environment.md",
-    "02 - Previous Knowledge.md",
-    "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
     "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+    "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
+    "01 - Vagrant/04 - Troubleshoot.md",
+    "01 - Work environment.md",
+    "02 - Packer/98 - Ressources.md",
+    "02 - Packer/01 - Definitions.md",
+    "02 - Previous Knowledge.md",
     "Vagrant/02 - Work environment.md",
     "02 - Packer/02 - Packer Cheat Sheet.md",
     "textgenerator/prompts/default/summarize.md",
@@ -190,8 +192,6 @@
     "textgenerator/prompts/dalle-2/quaBokeh.md",
     "textgenerator/prompts/dalle-2/qua85mm.md",
     "textgenerator/prompts/dalle-2/qua4K.md",
-    "textgenerator/prompts/dalle-2/qua35mm.md",
-    "textgenerator/prompts/dalle-2/qua200mm.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts/dalle-2",
     "textgenerator/prompts",
