@@ -45,7 +45,7 @@ SHELL
 	  sudo apt-get -y install apache2 mysql-client nmap
 	  echo '127.0.0.1 localhost web01\n192.168.55.100 db01' > /etc/hosts
 SHELL
-	end 
+	end
 	# User und Gruppen in alle VM hinzufuegen
 	config.vm.provision "shell", inline: <<-SHELL
 	  # Debug ON!!!
