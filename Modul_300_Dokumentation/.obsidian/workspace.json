@@ -33,8 +33,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Vagrant/98 - Ressources.md",
-                "mode": "preview",
+                "file": "01 - Vagrant/01 -Definitions.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Vagrant/98 - Ressources.md",
+                "file": "01 - Vagrant/01 -Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Vagrant/98 - Ressources.md",
+                "file": "01 - Vagrant/01 -Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Vagrant/98 - Ressources.md"
+                "file": "01 - Vagrant/01 -Definitions.md"
               }
             }
           },
@@ -186,18 +186,29 @@
   },
   "active": "9284133ff636684d",
   "lastOpenFiles": [
-    "01 - Vagrant/01 -Definitions.md",
-    "01 - Vagrant/99 - Questions.md",
     "01 - Vagrant/98 - Ressources.md",
+    "01 - Vagrant/screenshot_ssh_key.png",
+    "01 - Vagrant/screenshot_Obsidian.png",
+    "01 - Vagrant/screenshot_github_ssh_key.png",
     "01 - Vagrant/04 - Troubleshoot.md",
     "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+    "01 - Vagrant/01 -Definitions.md",
+    "25 - Security.md",
+    "02 - Previous Knowledge.md",
+    "01 - Work environment.md",
+    "docker/nextcloud/AIO Installer/Password.md",
+    "03 - docker/01 - nextcloud",
+    "03 - docker",
+    "docker/nextcloud/AIO Installer",
+    "02 - Packer/01 - Definitions.md",
+    "docker/nextcloud/Dockerfile",
+    "docker/nextcloud/docker-compose.yml",
+    "docker/nextcloud",
+    "docker",
     "02 - Packer/98 - Ressources.md",
     "02 - Packer/02 - Packer Cheat Sheet.md",
-    "25 - Security.md",
+    "01 - Vagrant/99 - Questions.md",
     "01 - Vagrant/03 - Vagrant Cheat-Sheet.md",
-    "01 - Work environment.md",
-    "02 - Packer/01 - Definitions.md",
-    "02 - Previous Knowledge.md",
     "Vagrant/02 - Work environment.md",
     "textgenerator/prompts/default/summarize.md",
     "textgenerator/prompts/default/simplify.md",
@@ -210,20 +221,10 @@
     "textgenerator/prompts/default/getEmailPos.md",
     "textgenerator/prompts/default/getEmailNeg.md",
     "textgenerator/prompts/dalle-2/sitNature.md",
-    "textgenerator/prompts/dalle-2/quaTiltShift.md",
-    "textgenerator/prompts/dalle-2/quaMacro.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts/dalle-2",
     "textgenerator/prompts",
-    "textgenerator",
-    "Vagrant",
-    "01 - Vagrant/screenshot_ssh_key.png",
-    "01 - Vagrant/screenshot_github_ssh_key.png",
-    "01 - Vagrant/screenshot_Obsidian.png",
     "01 - Vagrant/screenshot_VSCode.png",
-    "01 - Vagrant/screenshot_Virtualbox.png",
-    "02 - Packer",
-    "01 - Vagrant",
-    "VirtualBox"
+    "01 - Vagrant/screenshot_Virtualbox.png"
   ]
 }
