@@ -148,5 +148,10 @@
     }
   },
   "active": "5aa3d7f61312b529",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docker/nextcloud/AIO Installer/Password.md",
+    "docker/nextcloud/AIO Installer",
+    "docker/nextcloud",
+    "docker"
+  ]
 }
