@@ -3,7 +3,42 @@
 I use Proxmox as hypervisor to virtualise a Debian and also Windows Server 2019 VM's. I do this so I can work from anywhere on the same Host by connecting to my private Network with a VPN connection.
 # Debian VM
 
-VM angaben
+``` root@pve:~# pvesh get /nodes/pve/qemu/600/config
+┌─────────┬────────────────────────────────────────────────────────┐
+│ key     │ value                                                  │
+╞═════════╪════════════════════════════════════════════════════════╡
+│ agent   │ 1                                                      │
+├─────────┼────────────────────────────────────────────────────────┤
+│ boot    │ order=scsi0;net0                                       │
+├─────────┼────────────────────────────────────────────────────────┤
+│ cores   │ 2                                                      │
+├─────────┼────────────────────────────────────────────────────────┤
+│ digest  │ a5204c9c0bf7682edf05b4ddeb309c8fe5869d36               │
+├─────────┼────────────────────────────────────────────────────────┤
+│ memory  │ 4096                                                   │
+├─────────┼────────────────────────────────────────────────────────┤
+│ name    │ M300-Vagrant                                           │
+├─────────┼────────────────────────────────────────────────────────┤
+│ net0    │ virtio=CA:18:3B:C3:3C:81,bridge=vmbr0,firewall=1,tag=6 │
+├─────────┼────────────────────────────────────────────────────────┤
+│ numa    │ 0                                                      │
+├─────────┼────────────────────────────────────────────────────────┤
+│ ostype  │ l26                                                    │
+├─────────┼────────────────────────────────────────────────────────┤
+│ scsi0   │ data10:vm-600-disk-0,iothread=1,size=32G               │
+├─────────┼────────────────────────────────────────────────────────┤
+│ scsihw  │ virtio-scsi-single                                     │
+├─────────┼────────────────────────────────────────────────────────┤
+│ smbios1 │ uuid=13b5de6a-6c62-4d49-aa3f-8657e4eeb043              │
+├─────────┼────────────────────────────────────────────────────────┤
+│ sockets │ 1                                                      │
+├─────────┼────────────────────────────────────────────────────────┤
+│ tags    │ internal                                               │
+├─────────┼────────────────────────────────────────────────────────┤
+│ vmgenid │ ccaf6152-59a5-4fa8-a8f6-e6eaa981dcc5                   │
+└─────────┴────────────────────────────────────────────────────────┘
+
+```
 
 This Vm is used for the AWS Config Files. 
 
@@ -82,7 +117,7 @@ sudo apt-get update && sudo apt-get install packer
 Ressource: https://docs.docker.com/engine/install/debian/
 
 
-# Windows Environment (for VirtualBox)
+# Windows Environment
 
 For this I use a Windows 19 Server VM which is also virtualized on Proxmox.
 

@@ -21,6 +21,10 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
+                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+                "mode": "source",
+=======
                 "file": "01 - Vagrant/01 -Definitions.md",
                 "mode": "source",
                 "source": false
@@ -33,8 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "01 - Vagrant/01 -Definitions.md",
                 "mode": "source",
+=======
+                "file": "01 - Vagrant/98 - Ressources.md",
+                "mode": "preview",
+>>>>>>> 3bfb9916dd2fca4d687b1f1d33d7e136c3a0dca4
+>>>>>>> aa363c7d4575c47def777f0e613482d83638929c
                 "source": false
               }
             }
@@ -186,6 +196,20 @@
   },
   "active": "9284133ff636684d",
   "lastOpenFiles": [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    "01 - Work environment.md",
+    "02 - Packer/98 - Ressources.md",
+    "02 - Packer/02 - Packer Cheat Sheet.md",
+    "02 - Packer/01 - Definitions.md",
+    "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+    "01 - Vagrant/01 -Definitions.md",
+    "02 - Previous Knowledge.md"
+=======
+    "01 - Vagrant/01 -Definitions.md",
+    "01 - Vagrant/99 - Questions.md",
+>>>>>>> aa363c7d4575c47def777f0e613482d83638929c
     "01 - Vagrant/98 - Ressources.md",
     "01 - Vagrant/screenshot_ssh_key.png",
     "01 - Vagrant/screenshot_Obsidian.png",
@@ -225,6 +249,14 @@
     "textgenerator/prompts/dalle-2",
     "textgenerator/prompts",
     "01 - Vagrant/screenshot_VSCode.png",
+<<<<<<< HEAD
     "01 - Vagrant/screenshot_Virtualbox.png"
+=======
+    "01 - Vagrant/screenshot_Virtualbox.png",
+    "02 - Packer",
+    "01 - Vagrant",
+    "VirtualBox"
+>>>>>>> 3bfb9916dd2fca4d687b1f1d33d7e136c3a0dca4
+>>>>>>> aa363c7d4575c47def777f0e613482d83638929c
   ]
 }
