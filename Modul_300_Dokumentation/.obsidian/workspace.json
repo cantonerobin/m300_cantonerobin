@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -157,11 +157,12 @@
   },
   "active": "68acd65c6f1b61a3",
   "lastOpenFiles": [
-    "01 - Vagrant/01 -Definitions.md",
     "01 - Work environment.md",
     "02 - Packer/98 - Ressources.md",
-    "02 - Packer/01 - Definitions.md",
     "02 - Packer/02 - Packer Cheat Sheet.md",
+    "02 - Packer/01 - Definitions.md",
+    "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+    "01 - Vagrant/01 -Definitions.md",
     "02 - Previous Knowledge.md"
   ]
 }
