@@ -1,5 +1,9 @@
 FROM debian:latest
 
+LABEL maintainer="cantonerobin"
+LABEL version="1.0"
+LABEL description="Docker Image für das Modul 300"
+
 #Install apt Packages
 RUN apt update && apt install -y \
                 lsb-release \
@@ -15,26 +19,6 @@ RUN apt update && apt install -y \
 # Install PHP GPG Key
 RUN curl -sSLo /usr/share/keyrings/deb.sury.org-php.gpg https://packages.sury.org/php/apt.gpg && sh -c 'echo "deb [signed-by=/usr/share/keyrings/deb.sury.org-php.gpg] https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
 
-#Install PHP with modules
-RUN apt update && apt install -y \
-                php8.1 \
-                php8.1-cli \
-                php8.1-xml \
-                php8.1-zip \
-                php8.1-curl \
-                php8.1-gd \
-                php8.1-cgi \
-                php8.1-mysql \
-                php8.1-mbstring
-                #php8.1-{cli,xml,zip,curl,gd,cgi,mysql,mbstring}
-
-#Configure PHP
-RUN sed -i 's/;date.timezone =/date.timezone = Europe\/Zurich/g' /etc/php/8.1/cgi/php.ini && \
-    sed -i 's/memory_limit = .*/memory_limit = 512M/g' /etc/php/8.1/cgi/php.ini && \
-    sed -i 's/upload_max_filesize = .*/upload_max_filesize = 500M/g' /etc/php/8.1/cgi/php.ini && \
-    sed -i 's/post_max_size = .*/post_max_size = 500M/g' /etc/php/8.1/cgi/php.ini && \
-    sed -i 's/max_execution_time = .*/max_execution_time = 300/g' /etc/php/8.1/cgi/php.ini
-
 # Install Apache2
 RUN apt install apache2 -y && \
     a2enmod rewrite && \
@@ -46,7 +30,27 @@ RUN apt install apache2 -y && \
     a2dissite 000-default.conf && \
     rm /var/www/html/index.html
 
-#Copy Apache config File
+#Install PHP with modules
+RUN apt update && apt install -y \
+                php8.1 \
+                php8.1-cli \
+                php8.1-xml \
+                php8.1-zip \
+                php8.1-curl \
+                php8.1-gd \
+                php8.1-cgi \
+                php8.1-mysql \
+                php8.1-mbstring
+
+# Configure PHP
+RUN sed -i 's/;date.timezone =/date.timezone = Europe\/Zurich/g' /etc/php/8.1/cgi/php.ini && \
+    sed -i 's/memory_limit = .*/memory_limit = 512M/g' /etc/php/8.1/cgi/php.ini && \
+    sed -i 's/upload_max_filesize = .*/upload_max_filesize = 500M/g' /etc/php/8.1/cgi/php.ini && \
+    sed -i 's/post_max_size = .*/post_max_size = 500M/g' /etc/php/8.1/cgi/php.ini && \
+    sed -i 's/max_execution_time = .*/max_execution_time = 300/g' /etc/php/8.1/cgi/php.ini
+
+
+# Copy Apache config File
 COPY ./nextcloud.conf /etc/apache2/sites-available/nextcloud.conf
 
 # Enable Nextcloud site and reload Apache configuration
@@ -68,7 +72,7 @@ RUN wget https://download.nextcloud.com/server/releases/latest.zip && \
 RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 755 /var/www/html
 
-RUN a2enmod php8.1
+
 # Start Apache service in the foreground
 CMD ["apache2ctl", "-D", "FOREGROUND"]
 
