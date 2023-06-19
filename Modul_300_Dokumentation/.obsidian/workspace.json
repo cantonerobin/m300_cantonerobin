@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
-                "mode": "preview",
+                "file": "04 - LB2/05 - DockerHub.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+                "file": "04 - LB2/05 - DockerHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
+                "file": "04 - LB2/05 - DockerHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Vagrant/02 - Vagrant Cheat-Sheet.md"
+                "file": "04 - LB2/05 - DockerHub.md"
               }
             }
+          },
+          {
+            "id": "2db19054a535a79c",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,9 +157,29 @@
   },
   "active": "5aa3d7f61312b529",
   "lastOpenFiles": [
+    "04 - LB2/04 - GitHub Action.md",
+    "04 - LB2/05 - DockerHub.md",
+    "Github_Action_Digest.png",
+    "DockerHub_Digest.png",
+    "GitHub_Action_Build&Push.png",
+    "GitHub_Action_Steps.png",
+    "GitHub_Action_Overwiew.png",
+    "Github_Secrets.png",
+    "04 - LB2/03 - Dockerfile.md",
+    "04 - LB2/02 - Web Project.md",
+    "03 - Docker/HowTo.md",
+    "Dockerfile_build_log.png",
+    "04 - LB2/01 - Introduction.md",
+    "Website_Demo.png",
+    "GitHub_Access_Token.png",
+    "04 - LB2",
+    "01 - Work environment.md",
+    "02 - Previous Knowledge.md",
+    "25 - Security.md",
     "docker/nextcloud/AIO Installer/Password.md",
+    "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
     "docker/nextcloud/AIO Installer",
     "docker/nextcloud",
-    "docker"
+    "03 - Docker"
   ]
 }
