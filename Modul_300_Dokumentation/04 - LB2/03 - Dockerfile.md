@@ -11,7 +11,7 @@ COPY . /usr/share/nginx/html
 ## Logs
 
 Here you can see that the docker image is successfully build.
-![Alt text](Dockerfile_build_log.png)
+![Dockerfile Logs](Dockerfile_build_log.png)
 
 
 Ressource: https://tecadmin.net/tutorial/docker-run-static-website

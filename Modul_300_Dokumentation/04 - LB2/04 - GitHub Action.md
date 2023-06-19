@@ -3,8 +3,7 @@ The GitHub Actions can automatically build a new image and push it to the regist
 
 ## DockerHub Access Token 
 For this to work we have to create an Access Token in Dockerhub. This will later be used in the GitHub Action.
-![[GitHub_Access_Token.png]]
-
+![Alt text](image.png)
 ## GitHub Secrets
 For the GitHub Action we have to create 2 Secrets. This secret will be used in the GitHub Action later.
 ![[Github_Secrets.png]]
