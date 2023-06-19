@@ -1,11 +1,12 @@
 When the Github Action is finished, we can see the new Image in the registry.
 
+![DockerHub Repository](DockerHub_Repository.png)
+
 To check that all has worked as intended we can compare the Image digest from the registry with the one from the latest GitHub Action.
 
-![Dockerfile Logs](DockerHub_Digest.png)
+![Dockerhub Digest](DockerHub_Digest.png)
 As you can see, the digest for this Image is: ec1e6064abe6aae004bc6d38f82fad1cd97c0a9d175705a8adbc0bc0d561fd06
 
 Now we can search the logs from the GitHub Action for this Digest.
-![Dockerfile Logs](Github_Action_Digest.png)
+![GitHub Digest](Github_Action_Digest.png)
 
-This is our confirmation.

@@ -63,13 +63,13 @@ jobs:
 
 ## Logs
 Here you can see an overview of the last 3 runned Pipelines.
-![Dockerfile Logs](GitHub_Action_Overwiew.png)
+![Github Action overview](GitHub_Action_Overwiew.png)
 
 Here you see all the steps the action performed:
-![Dockerfile Logs](GitHub_Action_Steps.png)
+![Github Action Steps](GitHub_Action_Steps.png)
 
 The most importing step for us is this one:
-![Dockerfile Logs](GitHub_Action_Build&Push.png)
+![GitHub Action Build&Push](GitHub_Action_Build&Push.png)
 Here we can see that the image is successfully build and uploaded to DockerHub.
 
 
