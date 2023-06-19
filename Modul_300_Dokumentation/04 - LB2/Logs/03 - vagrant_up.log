@@ -1,9 +1,12 @@
-PS D:\git\m300_CI-CD\vagrant> vagrant up       
+PS D:\git\m300_CI-CD\vagrant> vagrant destroy -f
+==> dockerhost: Forcing shutdown of VM...
+==> dockerhost: Destroying VM and associated drives...
+PS D:\git\m300_CI-CD\vagrant> vagrant up 
 Bringing machine 'dockerhost' up with 'virtualbox' provider...
 ==> dockerhost: Importing base box 'ubuntu/xenial64'...
 ==> dockerhost: Matching MAC address for NAT networking...
 ==> dockerhost: Checking if box 'ubuntu/xenial64' version '20211001.0.0' is up to date...
-==> dockerhost: Setting the name of the VM: vagrant_dockerhost_1687176468734_790
+==> dockerhost: Setting the name of the VM: vagrant_dockerhost_1687180089449_99586
 ==> dockerhost: Clearing any previously set network interfaces...
 ==> dockerhost: Preparing network interfaces based on configuration...
     dockerhost: Adapter 1: nat
@@ -49,12 +52,12 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: Get:1 https://esm.ubuntu.com/infra/ubuntu xenial-infra-security InRelease [7,524 B]
     dockerhost: Get:2 https://esm.ubuntu.com/infra/ubuntu xenial-infra-updates InRelease [7,475 B]
     dockerhost: Get:3 https://esm.ubuntu.com/infra/ubuntu xenial-infra-security/main amd64 Packages [734 kB]
-    dockerhost: Hit:4 http://archive.ubuntu.com/ubuntu xenial InRelease
-    dockerhost: Get:5 http://security.ubuntu.com/ubuntu xenial-security InRelease [99.8 kB]
+    dockerhost: Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [99.8 kB]
+    dockerhost: Hit:5 http://archive.ubuntu.com/ubuntu xenial InRelease
     dockerhost: Get:6 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [99.8 kB]
     dockerhost: Get:7 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [97.4 kB]
-    dockerhost: Get:8 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [360 kB]
-    dockerhost: Get:9 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [7,532 kB]
+    dockerhost: Get:8 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [7,532 kB]
+    dockerhost: Get:9 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [360 kB]
     dockerhost: Get:10 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [786 kB]
     dockerhost: Get:11 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [226 kB]
     dockerhost: Get:12 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [7,864 B]
@@ -72,12 +75,12 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: Get:24 http://archive.ubuntu.com/ubuntu xenial-backports/main Translation-en [4,456 B]
     dockerhost: Get:25 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [11.3 kB]
     dockerhost: Get:26 http://archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [4,476 B]
-    dockerhost: Fetched 18.7 MB in 15s (1,205 kB/s)
+    dockerhost: Fetched 18.7 MB in 14s (1,265 kB/s)
     dockerhost: Reading package lists...
     dockerhost: Building dependency tree...
     dockerhost: Reading state information...
     dockerhost: 2 packages can be upgraded. Run 'apt list --upgradable' to see them.
-    dockerhost: 
+    dockerhost:
     dockerhost: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
     dockerhost:
     dockerhost: Reading package lists...
@@ -92,7 +95,7 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 update-notifier-common all 3.168.20 [169 kB]
     dockerhost: Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 ubuntu-advantage-tools amd64 27.14.4~16.04 [171 kB]
     dockerhost: dpkg-preconfigure: unable to re-open stdin: No such file or directory
-    dockerhost: Fetched 340 kB in 4s (69.6 kB/s)
+    dockerhost: Fetched 340 kB in 4s (71.8 kB/s)
 (Reading database ... 54424 files and directories currently installed.)
     dockerhost: Preparing to unpack .../update-notifier-common_3.168.20_all.deb ...
     dockerhost: Unpacking update-notifier-common (3.168.20) over (3.168.15) ...
@@ -132,7 +135,7 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: Get:3 http://archive.ubuntu.com/ubuntu xenial/main amd64 libnpth0 amd64 1.2-3 [7,998 B]
     dockerhost: Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 gnupg-agent amd64 2.1.11-6ubuntu2.1 [240 kB]
     dockerhost: dpkg-preconfigure: unable to re-open stdin: No such file or directory
-    dockerhost: Fetched 314 kB in 4s (63.7 kB/s)
+    dockerhost: Fetched 314 kB in 4s (74.5 kB/s)
     dockerhost: Selecting previously unselected package libassuan0:amd64.
 (Reading database ... 54561 files and directories currently installed.)
     dockerhost: Preparing to unpack .../libassuan0_2.4.2-2_amd64.deb ...
@@ -155,11 +158,11 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
     dockerhost: Get:1 https://download.docker.com/linux/ubuntu xenial InRelease [66.2 kB]
     dockerhost: Get:2 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages [21.0 kB]
-    dockerhost: Hit:3 http://archive.ubuntu.com/ubuntu xenial InRelease
-    dockerhost: Hit:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
-    dockerhost: Hit:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
-    dockerhost: Hit:6 http://security.ubuntu.com/ubuntu xenial-security InRelease
-    dockerhost: Fetched 87.2 kB in 4s (18.8 kB/s)
+    dockerhost: Hit:3 http://security.ubuntu.com/ubuntu xenial-security InRelease
+    dockerhost: Hit:4 http://archive.ubuntu.com/ubuntu xenial InRelease
+    dockerhost: Hit:5 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+    dockerhost: Hit:6 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+    dockerhost: Fetched 87.2 kB in 4s (18.4 kB/s)
     dockerhost: Reading package lists...
     dockerhost: Reading package lists...
     dockerhost: Building dependency tree...
@@ -184,7 +187,7 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: Get:6 https://download.docker.com/linux/ubuntu xenial/stable amd64 docker-ce-rootless-extras amd64 5:20.10.7~3-0~ubuntu-xenial [9,052 kB]
     dockerhost: Get:7 https://download.docker.com/linux/ubuntu xenial/stable amd64 docker-scan-plugin amd64 0.8.0~ubuntu-xenial [3,889 kB]
     dockerhost: dpkg-preconfigure: unable to re-open stdin: No such file or directory
-    dockerhost: Fetched 107 MB in 17s (6,003 kB/s)
+    dockerhost: Fetched 107 MB in 15s (6,870 kB/s)
     dockerhost: Selecting previously unselected package pigz.
 (Reading database ... 54600 files and directories currently installed.)
     dockerhost: Preparing to unpack .../pigz_2.3.1-2_amd64.deb ...
@@ -222,8 +225,8 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: Processing triggers for systemd (229-4ubuntu21.31) ...
     dockerhost: Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
     dockerhost: Docker version 20.10.7, build f0df350
-    dockerhost: c4d1eccf075c21475ebe2e08d23a9eb8b5d5c39ec8c215d3559c2e0a6feb7d55
-    dockerhost: 1f93e58f12b3350c5351bf03f17c85580bee504451d6586083d86093ad73048d
+    dockerhost: a0dfb5321a31b35a9816a1197e8939d78e0477fce0edd3b05f594c76172cbd85
+    dockerhost: dad29441f77c0b22b0c1d045df63144f0c3ee450212b00d6746a39b0b2741bf4
     dockerhost: Unable to find image 'cantonerobin/modul300_ci-cd:latest' locally
     dockerhost: latest: Pulling from cantonerobin/modul300_ci-cd
     dockerhost: 5b5fe70539cd: Pulling fs layer
@@ -233,26 +236,28 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: b0e1283145af: Pulling fs layer
     dockerhost: 4b98867cde79: Pulling fs layer
     dockerhost: 4a85ce26214d: Pulling fs layer
-    dockerhost: fe504b1230e1: Pulling fs layer
+    dockerhost: d32b4c5d27a6: Pulling fs layer
     dockerhost: ca89ed5461a9: Waiting
     dockerhost: b0e1283145af: Waiting
     dockerhost: 4b98867cde79: Waiting
     dockerhost: 4a85ce26214d: Waiting
-    dockerhost: fe504b1230e1: Waiting
+    dockerhost: d32b4c5d27a6: Waiting
+    dockerhost: 3b9543f2b500: Verifying Checksum
     dockerhost: 3b9543f2b500: Download complete
-    dockerhost: 5b5fe70539cd: Verifying Checksum
-    dockerhost: 5b5fe70539cd: Download complete
     dockerhost: ca89ed5461a9: Verifying Checksum
     dockerhost: ca89ed5461a9: Download complete
     dockerhost: 441a1b465367: Verifying Checksum
     dockerhost: 441a1b465367: Download complete
+    dockerhost: 5b5fe70539cd: Verifying Checksum
+    dockerhost: 5b5fe70539cd: Download complete
+    dockerhost: b0e1283145af: Verifying Checksum
+    dockerhost: b0e1283145af: Download complete
     dockerhost: 4b98867cde79: Verifying Checksum
     dockerhost: 4b98867cde79: Download complete
     dockerhost: 4a85ce26214d: Verifying Checksum
     dockerhost: 4a85ce26214d: Download complete
-    dockerhost: b0e1283145af: Verifying Checksum
-    dockerhost: b0e1283145af: Download complete
-    dockerhost: fe504b1230e1: Verifying Checksum
+    dockerhost: d32b4c5d27a6: Verifying Checksum
+    dockerhost: d32b4c5d27a6: Download complete
     dockerhost: 5b5fe70539cd: Pull complete
     dockerhost: 441a1b465367: Pull complete
     dockerhost: 3b9543f2b500: Pull complete
@@ -260,10 +265,10 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: b0e1283145af: Pull complete
     dockerhost: 4b98867cde79: Pull complete
     dockerhost: 4a85ce26214d: Pull complete
-    dockerhost: fe504b1230e1: Pull complete
-    dockerhost: Digest: sha256:153712d2210735b22e58974f1ddf925d943f4990038697332dce35458a836f81
+    dockerhost: d32b4c5d27a6: Pull complete
+    dockerhost: Digest: sha256:980743d334a3e3f127fc64f0800a6bba00b19d395e0935e4cbe3b71ebb6aa526
     dockerhost: Status: Downloaded newer image for cantonerobin/modul300_ci-cd:latest
-    dockerhost: 0ca2e3f4b8dd8c5f9942111c165bb9608182165b5c028967dd3df9a3988e2bb3
+    dockerhost: 0e9a512ea7c8d8e73d476a9c254d51e1ebe94f70280f5b4363947f7e01b60f13
     dockerhost: Unable to find image 'nginx:latest' locally
     dockerhost: latest: Pulling from library/nginx
     dockerhost: 5b5fe70539cd: Already exists
@@ -275,70 +280,5 @@ Bringing machine 'dockerhost' up with 'virtualbox' provider...
     dockerhost: 4a85ce26214d: Already exists
     dockerhost: Digest: sha256:593dac25b7733ffb7afe1a72649a43e574778bf025ad60514ef40f6b5d606247
     dockerhost: Status: Downloaded newer image for nginx:latest
-    dockerhost: e8a72413713b6c61dd3942b464525cff71d1ad2aa1eb4ac5dccae5bb267aa278
-PS D:\git\m300_CI-CD\vagrant> vagrant ssh
-Welcome to Ubuntu 16.04.7 LTS (GNU/Linux 4.4.0-210-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-Expanded Security Maintenance for Infrastructure is not enabled.
-
-0 updates can be applied immediately.
-
-170 additional security updates can be applied with ESM Infra.
-Learn more about enabling ESM Infra service for Ubuntu 16.04 at
-https://ubuntu.com/16-04
-
-New release '18.04.6 LTS' available.
-Run 'do-release-upgrade' to upgrade to it.
-
-
-vagrant@docker01:~$ sudo su
-root@docker01:/home/vagrant# docker ps
-CONTAINER ID   IMAGE                                COMMAND                  CREATED         STATUS         PORTS                               NAMES
-e8a72413713b   nginx:latest                         "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   reverse-proxy
-0ca2e3f4b8dd   cantonerobin/modul300_ci-cd:latest   "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   80/tcp                              web
-root@docker01:/home/vagrant# ip a
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1
-    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-    inet 127.0.0.1/8 scope host lo
-       valid_lft forever preferred_lft forever
-    inet6 ::1/128 scope host
-       valid_lft forever preferred_lft forever
-2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
-    link/ether 02:be:82:6b:cc:1d brd ff:ff:ff:ff:ff:ff
-    inet 10.0.2.15/24 brd 10.0.2.255 scope global enp0s3
-       valid_lft forever preferred_lft forever
-    inet6 fe80::be:82ff:fe6b:cc1d/64 scope link
-       valid_lft forever preferred_lft forever
-3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
-    link/ether 08:00:27:1b:26:b2 brd ff:ff:ff:ff:ff:ff
-    inet 192.168.55.100/24 brd 192.168.55.255 scope global enp0s8
-       valid_lft forever preferred_lft forever
-    inet6 fe80::a00:27ff:fe1b:26b2/64 scope link
-       valid_lft forever preferred_lft forever
-4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default
-    link/ether 02:42:89:2c:d4:0a brd ff:ff:ff:ff:ff:ff
-    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
-       valid_lft forever preferred_lft forever
-5: br-c4d1eccf075c: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default
-    link/ether 02:42:e0:09:78:35 brd ff:ff:ff:ff:ff:ff
-    inet 172.18.0.1/16 brd 172.18.255.255 scope global br-c4d1eccf075c
-       valid_lft forever preferred_lft forever
-6: br-1f93e58f12b3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default
-    link/ether 02:42:0f:21:6a:64 brd ff:ff:ff:ff:ff:ff
-    inet 172.19.0.1/16 brd 172.19.255.255 scope global br-1f93e58f12b3
-       valid_lft forever preferred_lft forever
-    inet6 fe80::42:fff:fe21:6a64/64 scope link
-       valid_lft forever preferred_lft forever
-8: vethb225d2e@if7: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-1f93e58f12b3 state UP group default
-    link/ether b6:f5:3f:bf:b8:54 brd ff:ff:ff:ff:ff:ff link-netnsid 0
-    inet6 fe80::b4f5:3fff:febf:b854/64 scope link
-       valid_lft forever preferred_lft forever
-10: vethff02127@if9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-1f93e58f12b3 state UP group default
-    link/ether c6:7d:39:3e:14:dc brd ff:ff:ff:ff:ff:ff link-netnsid 1
-    inet6 fe80::c47d:39ff:fe3e:14dc/64 scope link
-       valid_lft forever preferred_lft forever
-       
+    dockerhost: 7f62d7248f4bc76a14c799c93ee35281a62245c6ee187ccdbcf311de5d32c6bc
+PS D:\git\m300_CI-CD\vagrant> 
