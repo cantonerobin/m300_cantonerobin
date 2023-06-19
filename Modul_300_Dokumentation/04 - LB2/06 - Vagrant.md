@@ -79,7 +79,6 @@ You find the bash script here: https://github.com/cantonerobin/m300_CI-CD/blob/m
 
 ``` bash
 #!/bin/bash
-
 # Name des Docker Hub Repositorys und des Images
 repository="cantonerobin"
 image="modul300_ci-cd"
@@ -113,15 +112,5 @@ if [ "$current_version" != "$latest_version" ]; then
 else
   echo "Es ist keine Aktualisierung erforderlich. Das Image ist bereits auf dem neuesten Stand."
 fi
-
-docker kill webserver
-
-docker run -d \
-  --name webserver \
-  --restart unless-stopped \
-  --expose 80 \
-  --network docker-network \
-  cantonerobin/modul300_ci-cd:latest
-
 ```
 
