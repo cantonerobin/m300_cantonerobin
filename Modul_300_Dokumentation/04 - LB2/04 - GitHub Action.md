@@ -3,10 +3,10 @@ The GitHub Actions can automatically build a new image and push it to the regist
 
 ## DockerHub Access Token 
 For this to work we have to create an Access Token in Dockerhub. This will later be used in the GitHub Action.
-![Alt text](image.png)
+![Dockerfile Logs](Dockerhub_Access_Token.png)
 ## GitHub Secrets
 For the GitHub Action we have to create 2 Secrets. This secret will be used in the GitHub Action later.
-![[Github_Secrets.png]]
+![Dockerfile Logs](Github_Secrets.png)
 
 ## GitHub Action
 With GitHub Action we can trigger a docker Build Job whenever the developer does push to the main branch.
@@ -63,13 +63,13 @@ jobs:
 
 ## Logs
 Here you can see an overview of the last 3 runned Pipelines.
-![[GitHub_Action_Overwiew.png]]
+![Dockerfile Logs](GitHub_Action_Overwiew.png)
 
 Here you see all the steps the action performed:
-![[GitHub_Action_Steps.png]]
+![Dockerfile Logs](GitHub_Action_Steps.png)
 
 The most importing step for us is this one:
-![[GitHub_Action_Build&Push.png]]
+![Dockerfile Logs](GitHub_Action_Build&Push.png)
 Here we can see that the image is successfully build and uploaded to DockerHub.
 
 
