@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - LB2/06 - Vagrant.md",
+                "file": "04 - LB2/03 - Dockerfile.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - LB2/06 - Vagrant.md",
+                "file": "04 - LB2/03 - Dockerfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - LB2/06 - Vagrant.md",
+                "file": "04 - LB2/03 - Dockerfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 - LB2/06 - Vagrant.md"
+                "file": "04 - LB2/03 - Dockerfile.md"
               }
             }
           },
@@ -155,14 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5aa3d7f61312b529",
+  "active": "3ed57d6dda085f9f",
   "lastOpenFiles": [
-    "04 - LB2/05 - DockerHub.md",
-    "04 - LB2/04 - GitHub Action.md",
-    "04 - LB2/03 - Dockerfile.md",
     "04 - LB2/02 - Web Project.md",
     "04 - LB2/01 - Introduction.md",
     "04 - LB2/06 - Vagrant.md",
+    "04 - LB2/05 - DockerHub.md",
+    "04 - LB2/04 - GitHub Action.md",
+    "04 - LB2/03 - Dockerfile.md",
     "04 - LB2/Logs/01 - dockerfile_build.log",
     "04 - LB2/Logs/dockerfile_build.log",
     "04 - LB2/Logs/vagrant_up.log",
