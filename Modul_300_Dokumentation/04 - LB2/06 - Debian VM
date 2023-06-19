@@ -1,3 +1,21 @@
+Installation
 as Dockerhost we use Debian in a VM. This VM runs on my Proxmox Node.
 
 The Installation is straight forward and can be read [here](../01%20-%20Work%20environment.md)
+
+
+
+
+
+
+Bash Script
+
+#!/bin/bash
+# Stop running container
+docker-compose -f /path/to/docker-compose.yml down
+
+# Pull new Image
+docker-compose -f /path/to/docker-compose.yml pull
+
+# Start container
+docker-compose -f /path/to/docker-compose.yml up -d
