@@ -1,0 +1,17 @@
+PS D:\git\m300_CI-CD> docker build -t cantonerobin/modul300_ci-cd:latest . --no-cache
+[+] Building 0.7s (7/7) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                                                                   0.1s 
+ => => transferring dockerfile: 77B                                                                                                                                                                                    0.0s 
+ => [internal] load .dockerignore                                                                                                                                                                                      0.0s 
+ => => transferring context: 2B                                                                                                                                                                                        0.0s 
+ => [internal] load metadata for docker.io/library/nginx:latest                                                                                                                                                        0.0s 
+ => [internal] load build context                                                                                                                                                                                      0.2s 
+ => => transferring context: 2.65MB                                                                                                                                                                                    0.2s 
+ => CACHED [1/2] FROM docker.io/library/nginx                                                                                                                                                                          0.0s 
+ => [2/2] COPY . /usr/share/nginx/html                                                                                                                                                                                 0.2s 
+ => exporting to image                                                                                                                                                                                                 0.1s 
+ => => exporting layers                                                                                                                                                                                                0.1s 
+ => => writing image sha256:27f6a793c3000fd7dc5093bc1ec4dd631fd99f3d6eec32e497888bd4880d3550                                                                                                                           0.0s 
+ => => naming to docker.io/cantonerobin/modul300_ci-cd:latest                                                                                                                                                          0.0s 
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Previous Knowledge.md",
+                "file": "04 - LB2/06 - Vagrant.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Previous Knowledge.md",
+                "file": "04 - LB2/06 - Vagrant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Previous Knowledge.md",
+                "file": "04 - LB2/06 - Vagrant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Previous Knowledge.md"
+                "file": "04 - LB2/06 - Vagrant.md"
               }
             }
           },
@@ -157,13 +157,23 @@
   },
   "active": "5aa3d7f61312b529",
   "lastOpenFiles": [
+    "04 - LB2/05 - DockerHub.md",
+    "04 - LB2/04 - GitHub Action.md",
+    "04 - LB2/03 - Dockerfile.md",
+    "04 - LB2/02 - Web Project.md",
+    "04 - LB2/01 - Introduction.md",
+    "04 - LB2/06 - Vagrant.md",
+    "04 - LB2/Logs/01 - dockerfile_build.log",
+    "04 - LB2/Logs/dockerfile_build.log",
+    "04 - LB2/Logs/vagrant_up.log",
+    "04 - LB2/Logs",
+    "04 - LB2/99 - Logs",
+    "02 - Previous Knowledge.md",
     "01 - Work environment.md",
     "04 - LB2/Website_Demo.png",
     "04 - LB2/GitHub_Action_Overwiew.png",
     "04 - LB2/DockerHub_Digest.png",
     "04 - LB2/Dockerfile_build_log.png",
-    "04 - LB2/05 - DockerHub.md",
-    "04 - LB2/04 - GitHub Action.md",
     "04 - LB2/Dockerhub_Access_Token.png",
     "04 - LB2/06 - Debian VM",
     "04 - LB2/DockerHub_Repository.png",
@@ -171,12 +181,8 @@
     "04 - LB2/Dockerhub_Secrets.png",
     "04 - LB2/Github_Secrets.png",
     "04 - LB2/GitHub_Action_Steps.png",
-    "04 - LB2/03 - Dockerfile.md",
-    "04 - LB2/02 - Web Project.md",
     "03 - Docker/HowTo.md",
-    "04 - LB2/01 - Introduction.md",
     "04 - LB2",
-    "02 - Previous Knowledge.md",
     "25 - Security.md",
     "docker/nextcloud/AIO Installer/Password.md",
     "01 - Vagrant/02 - Vagrant Cheat-Sheet.md",
