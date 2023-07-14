@@ -1,0 +1,13 @@
+# Reflection
+I enjoyed this assignment, I could combine already known things like Docker with new things like GitHub Actions and Vagrant.
+I first had a more complex idea, which I had to simplify later. The latest state is visible under the "docker" folder. I wanted to install Nextcloud on top of the Debian Base image. This worked fine, but I could not solve a bug with apache. That's why I switched.
+
+## What did I learn.
+- Writing and dealing with DockerHub Actions.
+- Using DockerHub as a registry
+
+## What am I satisfied with?
+I am satisfied that the whole process works. It's all automated and working.
+
+## What will I do differently next time?
+Better plan which features I want to implement.
